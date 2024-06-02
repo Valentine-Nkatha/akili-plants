@@ -103,6 +103,36 @@ margin: 8%;
     margin-left: 170px;
 }
 
+.landing_page{
+    display: flex;
+    gap: 15%;
+    margin-left: 18%;
+    /* margin-right: 15%; */
+    padding-top: 5%;
+}
+#button{
+    border-radius: 50px;
+    height: 60px;
+    width: 250px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 3%;
+}
+#landing_image{
+    width: 400px;
+    object-fit: contain;
+    padding-bottom: 20%;
+}
+.landing_page_text{
+    font-size: xx-large;
+}
+#input{
+    border-radius: 50px;
+    height: 40px;
+    width: 250px;
+    padding-left: 10%;
+}
+
 
 @media (max-width:480px) {
     .cactus {
@@ -143,7 +173,8 @@ margin: 8%;
 
 }
 
-@media (min-width:1920px)
+
+
 
 
 
