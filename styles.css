@@ -35,3 +35,37 @@
    }
 
    
+
+.succulent_heading{
+    margin-left: 50%;
+
+}
+.succulents{
+display: flex;
+gap: 25%;
+margin-left: 80px;
+}
+.firstsucculent{
+width: 200%;
+height: 90%;  
+margin-bottom: 2%;  
+}
+.clusteredpants{
+    display: grid;
+    grid-template-columns: repeat(2 ,2fr);
+    gap: 25%;
+    max-width: 8%;
+};
+
+.image{
+    width: 70%;
+    height: 30%;
+}
+
+.clusteredpants p{
+font-size: 35px;
+} 
+
+
+
+
