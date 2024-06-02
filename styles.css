@@ -1,0 +1,37 @@
+.fourdisplays{
+    display:flex;
+    gap: 150px;
+   padding-top: 40px;
+   width: 300px;
+   height: 300px;
+}
+
+.whole{
+    margin: 70px;
+}
+
+.inspiration{
+    display: flex;
+    font-size:20px;
+    gap: 320px;
+    padding: 20px;
+ }
+
+.insipration_text{
+    background-color: #124909;
+    padding-top: 80px;
+    padding-bottom: 6%;
+    margin: 100px;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 30px;
+    color: white;
+    margin-left: 80px;    
+}
+
+.picture{
+    width: 400px;
+    height: 350px;
+   }
+
+   
