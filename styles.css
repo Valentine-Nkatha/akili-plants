@@ -18,23 +18,30 @@
 }
 .landing_page{
     display: flex;
-    gap: 60%;
-    margin-left: 3%;
-    margin-right: 3%;
+    gap: 15%;
+    margin-left: 18%;
+    /* margin-right: 15%; */
     padding-top: 5%;
 }
 #button{
-    border-radius: 50%;
-    height: 50%;
-    width: 20%;
+    border-radius: 50px;
+    height: 60px;
+    width: 250px;
     margin-left: 50%;
+    margin-right: 50%;
     margin-bottom: 3%;
 }
 #landing_image{
-    width: 300px;
+    width: 400px;
     object-fit: contain;
     padding-bottom: 20%;
 }
 .landing_page_text{
     font-size: xx-large;
+}
+#input{
+    border-radius: 50px;
+    height: 40px;
+    width: 250px;
+    padding-left: 10%;
 }
