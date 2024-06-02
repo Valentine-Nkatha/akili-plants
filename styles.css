@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50%;
+    font-size: xx-large;
+
+
+}
+.landing{
+    background-color: #124909;
+    padding-top: 1%;
+    color:white;
+    margin-left: 8%;
+    margin-right: 8%;
+
+    
+
+}
+.landing_page{
+    display: flex;
+    gap: 60%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 5%;
+}
+#button{
+    border-radius: 50%;
+    height: 60%;
+    width: 20%;
+    margin-left: 50%;
+    margin-bottom: 3%;
+}
+#landing_image{
+    width: 300px;
+    object-fit: contain;
+    padding-bottom: 20%;
+}
+.landing_page_text{
+    font-size: xx-large;
+}
