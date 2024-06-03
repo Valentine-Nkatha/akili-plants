@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(0, 128, 0, 0.918);
+    background-color: #124909;
     font-family: Arial, sans-serif;
     color: #fff;
     text-align: center;
@@ -71,4 +71,13 @@ body {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+#button1{
+    border-radius: 50px;
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    color: #124909;
+    font-weight: bold;
+   
 }

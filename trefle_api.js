@@ -4,7 +4,7 @@ async function fetchPlants() {
     try {
         const response = await fetch(`${url}`);
         const plants = await response.json();
-        displayPlants(plants.data.slice(0, 14)); // Display only the first 10 plants
+        displayPlants(plants.data.slice(0, 14)); 
         const searchBar = document.getElementById('searchBar');
         searchBar.addEventListener('input', () => filterPlants(plants.data));
     } catch (error) {
@@ -13,7 +13,7 @@ async function fetchPlants() {
 }
 function displayPlants(plants) {
     const container = document.querySelector('#container');
-    container.innerHTML = ''; // Clear previous results
+    container.innerHTML = ''; 
     plants.forEach(plant => {
         const plantCard = document.createElement('div');
         plantCard.classList.add('plant-card');
