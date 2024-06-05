@@ -234,7 +234,9 @@ margin: 8%;
     font-size:large;
     background-color:black;
     color:white;
+    
 }
+
 #Text{
     display: flex;
     gap: 200px;
