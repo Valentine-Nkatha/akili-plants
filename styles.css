@@ -226,29 +226,30 @@ margin: 8%;
     width: 120px;
     height: 60px;
     margin-top: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 40px;
+    margin-right: 40px;
     font-size:large;
-    background-color:tan;
+    background-color:black;
+    color:white;
 }
 #Text{
     display: flex;
-    gap: 500px;
+    gap: 200px;
 }
 .tex{
     font-size: 23px;
 }
 #text{
     font-size: 34px;
+    margin-left: 10%;
   
 }
 #tree{
-    width: 150%;
+    width: 200%;
 }
-body{
-    /* margin-left: 10%; */
-    /* margin-right: 10%; */
-}
+
 #images{
     font-size: 29px;
 }
@@ -257,6 +258,34 @@ body{
     margin-top: 5%;
     gap: 30%;
     font-size: 20px;
+}
+#lily{
+    background-image: url("https://i.pinimg.com/236x/6c/f9/d5/6cf9d52011f571cc0758bfc2047b1db7.jpg");
+   background-position: right;
+   background-size:cover;
+    background-repeat: no-repeat; 
+   border: none;
+   width: 100%;
+   height: 100%;
+   color: black;
+   text-align: center;
+   padding-bottom: 5%;
+   padding-top: 5%; 
+
+   
+}
+#innerlily{
+    /* width: 80%;
+    height: 100%; */
+    /* padding: 200px; */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-size: cover;
+    filter: opacity(60%);
+    
 }
 .green{
     display: flex;
@@ -268,8 +297,7 @@ body{
     gap: 380px;
     background-color:forestgreen;
     margin-top: 100px;
-    /* width: 112%; */
-    /* height: 120%; */
+ 
 }
 #Choose{
     text-align: center;
