@@ -213,7 +213,8 @@ margin: 8%;
 #plan{
     font-size: 24px;
     display: flex;
-    gap: 300px;
+    gap: 280px;
+    object-fit: contain;
   
 }
 .plan{
@@ -319,6 +320,8 @@ margin: 8%;
     font-size: larger;
     text-align: center;
 }
-
+#Plantae{
+    text-align: center;
+}
 
  
