@@ -46,7 +46,6 @@ function displayPlants(plants) {
         imgElement.src = plant.image_url;
         imgElement.alt = plant.common_name;
         plantCard.appendChild(imgElement);
-        // Add event listener for displaying details on click
         plantCard.addEventListener('click', () => displayPlantDetails(plant));
         container.appendChild(plantCard);
     });
@@ -85,62 +84,5 @@ function displayPlantDetails(plant) {
     });
 }
 fetchPlants();
-
-
-// const totalPages = Math.ceil(plants.length / plantsPerPage);
-
-
-// // Function to display plants for a specific page
-// function displayPage(page) {
-//     const startIndex = (page - 1) * plantsPerPage;
-//     const endIndex = startIndex + plantsPerPage;
-//     plants.forEach((plant, index) => {
-//         if (index >= startIndex && index < endIndex) {
-//             plantCard.style.display = 'block';
-//         } else {
-//             plantCard.style.display = 'none';
-//         }
-//     });
-// }
-
-// // Function to update pagination buttons and page numbers
-// function updatePagination() {
-//     const pageNumbers = document.getElementById("pagination-numbers");
-//     pageNumbers.innerHTML = '';
-//     for (let i = 1; i <= totalPages; i++) {
-//         const pageNumber = document.createElement("button");
-//         pageNumber.className = "pagination-number";
-//         pageNumber.innerHTML = i;
-//         pageNumber.setAttribute("page-index", i);
-//         pageNumber.setAttribute("aria-label", "Page " + i);
-//         pageNumbers.appendChild(pageNumber);
-//     }
-// }
-
-
-// // Event listener for "Previous" button
-// prevButton.addEventListener('click', () => {
-//     if (currentPage > 1) {
-//         currentPage--;
-//         displayPage(currentPage);
-//         updatePagination();
-//     }
-// });
-
-// // Event listener for "Next" button
-// nextButton.addEventListener('click', () => {
-//     if (currentPage < totalPages) {
-//         currentPage++;
-//         displayPage(currentPage);
-//         updatePagination();
-//     }
-// });
-
-// // Initialize pagination
-// const currentPage = 1;
-// updatePagination();
-
-
-
 
 
