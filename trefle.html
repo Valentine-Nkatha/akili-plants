@@ -9,7 +9,14 @@
 </head>
 <body>
     <h1>Plant Gallery</h1>
+    <div>
+        <a href="index.html"><button id="button1">Go Home</button></a>
+      </div>
     <input type="text" id="searchBar" placeholder="Search for a plant...">
+
+    <!-- <div>
+        <a href="index.html"><button id="button1">Go Home</button></a>
+      </div> -->
     <div id="container"></div>
     <div id="modal" class="modal">
         <div class="modal-content">
@@ -17,13 +24,15 @@
             <div id="plant-details"></div>
         </div>
 
-        <div>
-            <a href="index.html"><button id="button1">Go Home</button></a>
-          </div>
 
           <div>
             <p>A plant is a living thet grow<br> in the earth and has a stem</p>
           </div>
+          <div class="pagination">
+            <button id="prev">Prev</button>
+            <input type="number" id="page-number" />
+            <button id="next">Next</button>
+        </div>
     </div>
    
     <script src="trefle_api.js"></script>
