@@ -44,7 +44,15 @@
     font-size:large;
     background-color:black;
     color:white;
+    text-decoration: none;
     
+}
+#button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
 #Text{
@@ -88,9 +96,6 @@
    
 }
 #innerlily{
-    /* width: 80%;
-    height: 100%; */
-    /* padding: 200px; */
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: white;
@@ -108,7 +113,7 @@
     display: flex;
     font-size: 15px;
     gap: 380px;
-    background-color:forestgreen;
+    background-color: #124909;
     margin-top: 100px;
  
 }
@@ -136,5 +141,52 @@
     text-align: center;
     font-size: 22px;
 }
+#home{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 
- 
+
+}
+.menu-toggle {
+    display: none;
+  }
+  
+
+/* Styles for smaller screens */
+@media screen and (max-width: 767px) {
+
+    #menu-toggle {
+        display: none;
+    }
+    
+    .hamburger-button {
+        cursor: pointer;
+        font-size: 24px;
+        color: #fff;
+        background-color: #333;
+        padding: 10px;
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        width: 200px;
+        position: absolute;
+        right: 0;
+    }
+    
+    .nav-links ul li {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .nav-links ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+}
+
