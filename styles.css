@@ -16,7 +16,7 @@
     
 }
 .navbar a{
-    color:black;
+    color:white;
     text-decoration: none;
     font-size: 25px;
 }
@@ -129,10 +129,12 @@
 }
 .footer{
     display: flex;
-    font-size: 18px;
-    gap: 300px;
+    gap: 400px;
     margin-top: 100px;
     text-align:start;
+    background-color:#009000;
+    font-size: 20px;
+
  
 }
 #Choose{
@@ -195,7 +197,7 @@
         
     }
     .navbar a{
-        color:black;
+        color:white;
         text-decoration: none;
         font-size:small;
     }
@@ -311,6 +313,7 @@
         gap: 10px;
         margin-top: 10px;
         text-align:start;
+        background-color:#009000;
      
     }
     #Choose{
@@ -375,7 +378,7 @@
         
     }
     .navbar a{
-        color:black;
+        color:white;
         text-decoration: none;
         font-size:small;
     }
@@ -491,6 +494,7 @@
         gap: 10px;
         margin-top: 10px;
         text-align:start;
+        background-color:#009000;
      
     }
     #Choose{
@@ -537,6 +541,255 @@
     }
     }
 
+    @media screen and (max-width: 1199px){
+        /* #sunflower{
+            width: 30px;
+            margin-left: 0%;
+        } */
+        .Navbar{
+            flex-wrap: wrap;
+            font-size: large;
+            /* gap: 10px; */
+        }
+        .navbar{
+            /* display: flex; */
+             margin-left: 1%;
+             /* gap: 10px;  */
+            flex-wrap: wrap;
+        }
+        #learn{
+            font-size: 40px;
+            text-align: center;
+        }
+        #Plantae{
+            text-align: center;
+        }
+        .plan{
+            width: 150px;
+            height: 150px;
+        }
+        #plan{
+            gap: 100px;
+        }
+        #Choose{
+            text-align: center;
+            font-size: 40px;
+        }
+        .images{
+            width: 150px;
+            height: 150px;
+            gap: 100px;
+            margin-bottom: 10%;
+        }
+        .information{
+            font-size: 23px;
+            margin-top: 0%;
+        }
+        #images{
+            font-size: 20px;
+        }
+        .green{
+            width: 150px;
+            height: 150px;
+            gap: 100px;
+        }
+        .join{
+            font-size: 20px;
+        }
+        #picture{
+            width: 150px;
+            height: 150px;
+        }
+        #join{
+            gap: 100px;
+        }
+        .footer{
+            gap: 120px;
+            padding-left: 4%;
+            background-color:#009000;
+        }
+        #tree{
+            width: 200px;
+            height: 200px;
+            gap: 10px;
+        }
+        .container{
+            object-fit: cover;
+        }
+    }
+
+    @media (min-width:951px)and (max-width:1200px){
+        #sunflower{
+            width: 50px;
+        }
+        .Navbar{
+            display: flex;
+            font-size: larger;
+            margin-top: -50px;
+            font-size: 25px;
+        }
+        .navbar{
+            display: flex;
+            margin-left: 20%;
+            gap: 5px;
+        }
+        .navbar a{
+            color:white;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        .plant{
+            font-size: 30px;
+        }
+        #learn{
+            text-align: center;
+        }
+        #plan{
+            /* font-size: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 200px;
+            object-fit: contain; */
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            /* grid-gap: 10px; */
+        }
+        .plan{
+            width: 200px;
+            height: 200px;
+            border-radius: 20%;
+        }
+        #button{
+            border-radius: 50px;
+            width: 120px;
+            height: 60px;
+            margin-top: 20px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size:large;
+            background-color:black;
+            color:white;
+            text-decoration: none;
+        }
+        #img{
+            display: grid;
+            /* display: grid; */
+                grid-template-columns: repeat(3,1fr);
+                /* gap: 40px; */
+        }
+        #Text{
+            display: flex;
+            gap: 200px;
+        }
+        .tex{
+            font-size: 23px;
+        }
+        #text{
+            font-size: 34px;
+            margin-left: 10%;
+        }
+        #tree{
+            width: 150%;
+        }
+        #images{
+            font-size: 29px;
+        }
+        .images{
+            display: flex;
+            margin-top: 5%;
+            gap: 300px;
+            font-size: 20px;
+            border-radius: 20%;
+            width: 180px;
+            height: 200px;
+            margin-bottom: 4%;
+        }
+        #aim{
+            font-size: 23px;
+            padding-top: 150px;
+        }
+        #lily{
+            background-image: url("https://media.istockphoto.com/id/1201392512/photo/dark-green-foliage-nature-background-from-clean-tropical-plant-leaves.jpg?s=612x612&w=0&k=20&c=hfYtITIFqoa0m2FR6DZ-yWK0Jlhill4zzUuXiVvoGIg=");
+           background-position: center;
+           background-size:cover;
+            background-repeat: no-repeat;
+           border: none;
+           width: 100%;
+           height: 100%;
+           color: black;
+           text-align: center;
+           padding-bottom: 5%;
+           padding-top: 5%;
+        }
+        #innerlily{
+            padding-top: 80px;
+            padding-bottom: 80px;
+            background-color: white;
+            margin-left: 2%;
+            margin-right: 2%;
+            background-size: cover;
+            filter: opacity(60%);
+        }
+        .green{
+            display: flex;
+            /* flex-wrap: wrap; */
+            gap: 70px;
+            width: 200px;
+            margin-top: 4%;
+            height: 290px;
+            border-radius: 20%;
+        }
+        .footer{
+            display: flex;
+            font-size: 18px;
+            gap: 300px;
+            margin-top: 10px;
+            text-align:start;
+            margin-left: 40px;
+        }
+        #Choose{
+            text-align: center;
+        }
+        .join{
+            text-align: center;
+            font-size: 20px;
+        }
+        #join{
+            display: flex;
+            display: block;
+            gap: 200px;
+        }
+        #picture{
+            width: 650px;
+            height: 500px;
+            border-radius: 20%;
+            padding-left: 0px;
+        }
+        .information{
+            margin-top: 5%;
+            font-size:23px;
+            text-align: center;
+        }
+        #Plantae{
+            text-align: center;
+            font-size: 22px;
+        }
+        #home{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .menu-toggle {
+            display: none;
+          }
+        .container{
+            object-fit: contain;
+        }
+    }
+
     @media (max-width:1300px) {
         #sunflower{
             width: 54px;
@@ -551,7 +804,8 @@
         .navbar{
             display:flex;
             margin-left: -10px;
-            gap: 140px;
+            gap: 14Ad
+            0px;
             
         }
         .navbar a{
@@ -673,6 +927,7 @@
             gap: 150px;
             margin-top: 10px;
             text-align:start;
+            background-color:#009000;
          
         }
         #Choose{
