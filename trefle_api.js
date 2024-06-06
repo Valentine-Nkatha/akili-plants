@@ -126,16 +126,31 @@
 // fetchPlants();
 const baseUrl = "https://trefle.io/api/v1/plants?token=IStUS451yET7aU6HoqFv5cLSGc_IEP64VIcL1Bssm6Q";
 const url = "https://corsproxy.io/?" + encodeURIComponent(baseUrl);
-let currentPage = 1; // Start from the first page
-const itemsPerPage = 16; // Number of items per page
+// async function fetchPlants() {
+//     try {
+//         const response = await fetch(`${url}`);
+//         const plants = await response.json();
+//         displayPlants(plants.data.slice(0, 14)); 
+//         const searchBar = document.getElementById('searchBar');
+//         searchBar.addEventListener('input', () => filterPlants(plants.data));
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
+
 
 async function fetchPlants() {
     try {
-        const response = await fetch(`${url}&page=${currentPage}&limit=${itemsPerPage}`);
-        const plants = await response.json();
-        displayPlants(plants.data); // Pass the entire array to displayPlants
+        const totalPages = 150;
+        const plantsData = [];
+        for (let currentPage = 1; currentPage <= totalPages; currentPage++) {
+            const response = await fetch(`${url}&page=${currentPage}`);
+            const pageData = await response.json();
+            plantsData.push(...pageData.data);
+        }
+        displayPlants(plantsData.slice(0, 40000));
         const searchBar = document.getElementById('searchBar');
-        searchBar.addEventListener('input', () => filterPlants(plants.data));
+        searchBar.addEventListener('input', () => filterPlants(plantsData));
     } catch (error) {
         console.log(error);
     }
@@ -223,16 +238,19 @@ function displayPlantDetails(plant) {
         const closeButton = document.querySelector('.close-button');
         closeButton.addEventListener('click', () => {
             modal.style.display = "none";
-        });
-        window.addEventListener('click', (event) => {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        });
-    }
+        }
+    });
+}
+fetchPlants();
 
-// Example usage of nextPage and prevPage functions
-document.getElementById('nextPageButton').addEventListener('click', nextPage);
-document.getElementById('prevPageButton').addEventListener('click', prevPage);
 
-fetchPlants(); // Initial fetch
+//  Hambuger logic 
+//     document.getElementById('menu-toggle').addEventListener('click', function() {
+//     var navLinks = document.querySelector('.nav-links');
+//     if (navLinks.style.display === 'block') {
+//         navLinks.style.display = 'none';
+//    } else {
+//         navLinks.style.display = 'block';
+//      }
+//  });
+
