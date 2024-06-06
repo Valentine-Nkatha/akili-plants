@@ -11,6 +11,25 @@ async function fetchPlants() {
         console.log(error);
     }
 }
+
+
+// async function fetchPlants() {
+//     try {
+//         const totalPages = 150;
+//         const plantsData = [];
+//         for (let currentPage = 1; currentPage <= totalPages; currentPage++) {
+//             const response = await fetch(`${url}&page=${currentPage}`);
+//             const pageData = await response.json();
+//             plantsData.push(...pageData.data);
+//         }
+//         displayPlants(plantsData.slice(0, 40000));
+//         const searchBar = document.getElementById('searchBar');
+//         searchBar.addEventListener('input', () => filterPlants(plantsData));
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
+
 function displayPlants(plants) {
     const container = document.querySelector('#container');
     container.innerHTML = ''; 
@@ -64,13 +83,13 @@ function displayPlantDetails(plant) {
 fetchPlants();
 
 
-/* Hambuger logic */
-document.getElementById('menu-toggle').addEventListener('click', function() {
-    var navLinks = document.querySelector('.nav-links');
-    if (navLinks.style.display === 'block') {
-        navLinks.style.display = 'none';
-    } else {
-        navLinks.style.display = 'block';
-    }
-});
+//  Hambuger logic 
+//     document.getElementById('menu-toggle').addEventListener('click', function() {
+//     var navLinks = document.querySelector('.nav-links');
+//     if (navLinks.style.display === 'block') {
+//         navLinks.style.display = 'none';
+//    } else {
+//         navLinks.style.display = 'block';
+//      }
+//  });
 
