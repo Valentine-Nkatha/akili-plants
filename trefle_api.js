@@ -76,3 +76,6 @@ function displayPlantDetails(plant) {
     });
 }
 fetchPlants();
+
+
+
