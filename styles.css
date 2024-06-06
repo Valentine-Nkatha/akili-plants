@@ -205,6 +205,21 @@
     
 }
 
-@media screen and (max-width:1046){
+@media screen and (max-width:1199px){
+    #sunflower{
+        width: 50px;
     
+    }
+    .Navbar{
+        flex-wrap: wrap;
+        font-size: large;
+        
+    }
+    .navbar{
+        /* display: flex; */
+        /* margin-left: 60%; */
+        /* gap: 70px; */
+        flex-wrap: wrap;
+        
+    }
 }
