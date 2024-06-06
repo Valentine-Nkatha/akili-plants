@@ -1,193 +1,3 @@
-/* .navbar{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 50%;
-    font-size: xx-large;
-
-
-}
-.landing{
-    background-color: #124909;
-    padding-top: 1%;
-    color:white;
-    margin-left: 8%;
-    margin-right: 8%;
-
-    
-
-}
-.landing_page{
-    display: flex;
-    gap: 10%;
-    margin-left: 18%;
-    /* margin-right: 15%; */
-    /* padding-top: 5%;
-}
-#button{
-    border-radius: 50px;
-    height: 60px;
-    width: 250px;
-    margin-left: 5%;
-    margin-right: 50%;
-    margin-bottom: 3%;
-    /* margin-bottom: 20%; */
-/* }
-
-.page_fix {
-    /* flex-wrap:wrap ; */
-
-/* }
-#landing_image{
-    width: 400px;
-    object-fit: contain;
-    padding-bottom: 20%;
-}
-.landing_page_text{
-    font-size: xx-large;
-}
-#input{
-   border-radius: 50px; 
-   height: 20px; */
-
-
-
-/* .fourdisplays{
-    display:flex;
-    gap: 150px;
-   padding-top: 40px;
-   width: 300px;
-   height: 300px;
-   margin-left: 18%;
-   margin-top: 5%;
-   margin-bottom: 4%;
-  
-}
-
-.whole{
-    margin: 70px;
-}
-
-.inspiration{
-    display: flex;
-    font-size:20px;
-    gap: 10%;
-    padding: 20px;
-    margin-left: 18%;
- }
-
-.insipration_text{
-    background-color: #124909;
-    padding-top: 80px;
-    padding-bottom: 6%;
-    padding-left: 4%;
-    padding-right: 4%;
-    border-radius: 30px;
-    color: white;
-      
-}
-
-.picture{
-    width: 400px;
-    height: 350px;
-   }
-
-   
-
-/* .succulent_heading{
-    margin-left: 50%;
-
-} */
-/* .succulents{
-display: flex;
-gap: 25%;
-margin: 8%;
-}
-.firstsucculent{
-width: 140%;
-height: 80%;  
-margin-bottom: 2%;  
-}
-.clusteredpants{
-    display: grid;
-    grid-template-columns: repeat(2 ,2fr);
-    gap: 10%;
-    /* max-width: 8%; */
-/* };
-
-.image{
-    width: 50%;
-    height: 20%;
-}
-
-.clusteredpants p{
-font-size: 35px;
-}  */ 
-
-
-
-/* .cactus {
-    display: flex;
-padding-left: 30px;
-gap:10px;
-margin-left: 18%;
-    
-
-}
-h3{
-    text-align: center;
-}
-
-.cutplant {
-    width: 210px;
-}
-.euphobia {
-    width: 500px;
-}
-
-#plant_img {
-    width: 300px;
-}
-
-.footer {
-    display: flex; */
-    /* padding: 50px;
-    gap:40%;
-    border: solid 1px;
-    background-color: rgba(18, 73, 9, 1);
-    color:rgba(255, 255, 255, 1) ;
-margin-left: 10px;
-text-align: center;
-margin: 8%;
-}
-
-.socials {
-    margin-left: 170px;
-}
-
-
-
-
-@media (max-width:480px) {
-    .cactus {
-        display: flex;
-        
-    
-    }
-    
-    .euphobia {
-        width: 900px;
-    }
-    
-    #plant_img {
-        width: 500px;
-    }
-    .footer {
-        display: flex;
-        gap:100px;
-    
-    }
-}  */
-
 #sunflower{
     width: 50px;
 
@@ -264,7 +74,7 @@ margin: 8%;
 }
 #lily{
     background-image: url("https://i.pinimg.com/236x/6c/f9/d5/6cf9d52011f571cc0758bfc2047b1db7.jpg");
-   background-position: right;
+   background-position: center;
    background-size:cover;
     background-repeat: no-repeat; 
    border: none;
@@ -319,11 +129,12 @@ margin: 8%;
 }
 .information{
     margin-top: 5%;
-    font-size: larger;
+    font-size:23px;
     text-align: center;
 }
 #Plantae{
     text-align: center;
+    font-size: 22px;
 }
 
  
