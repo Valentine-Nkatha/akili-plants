@@ -8,23 +8,39 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <div class="Navbar">
+        <img src="images/lily-removebg-preview.png" alt="logo" id="sunflower">
+        <h3>Evogreen</h3>
+        <li class="navbar">
+          <ul> <a href="index.html" id="home">Home</a></ul>
+         </li>
+      </div>
+
+      <!-- <div id="hamburger-menu">
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger-button">&#9776;</label>
+        <div class="nav-links">
+             <img src="images/lily-removebg-preview.png" alt="logo" id="sunflower">
+        <h3>Evogreen</h3>
+        <li class="navbar">
+          <ul> <a href="index.html" id="home">Home</a></ul>
+         </li>
+        </div>
+    </div> -->
+    
     <h1>Plant Gallery</h1>
-    <input type="text" id="searchBar" placeholder="Search for a plant...">
+    <input type="text" id="searchBar" placeholder="Search for a plant...">  <div>
+       
+      </div>
     <div id="container"></div>
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
             <div id="plant-details"></div>
         </div>
-
-        <div>
-            <a href="index.html"><button id="button1">Go Home</button></a>
-          </div>
-
-          <div>
-            <p>A plant is a living thet grow<br> in the earth and has a stem</p>
-          </div>
     </div>
+   
    
     <script src="trefle_api.js"></script>
 </body>
