@@ -6,13 +6,19 @@
 .Navbar{
     display: flex;
     font-size: larger;
-    
+    margin-top: -50px;
+    font-size: 25px;
 }
 .navbar{
     display: flex;
     margin-left: 60%;
-    gap: 70px;
+    gap: 60px;
     
+}
+.navbar a{
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
 }
 .plant{
     font-size: 30px;
@@ -112,10 +118,10 @@
 }
 .footer{
     display: flex;
-    font-size: 15px;
-    gap: 380px;
-    background-color: #124909;
+    font-size: 18px;
+    gap: 300px;
     margin-top: 100px;
+    text-align:start;
  
 }
 #Choose{
