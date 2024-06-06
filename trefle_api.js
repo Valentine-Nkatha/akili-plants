@@ -4,6 +4,7 @@ async function fetchPlants() {
     try {
         const response = await fetch(`${url}`);
         const plants = await response.json();
+        console.log(plants.length)
         displayPlants(plants.data.slice(0, 14)); 
         const searchBar = document.getElementById('searchBar');
         searchBar.addEventListener('input', () => filterPlants(plants.data));
@@ -16,14 +17,14 @@ function displayPlants(plants) {
     container.innerHTML = ''; 
     plants.forEach(plant => {
         const plantCard = document.createElement('div');
-        plantCard.classList.add('plant-card');
+        plantCard.className = 'plant-card';
         const nameElement = document.createElement('h3');
         nameElement.textContent = plant.common_name;
-        plantCard.appendChild(nameElement);
         const imgElement = document.createElement('img');
         imgElement.src = plant.image_url;
         imgElement.alt = plant.common_name;
         plantCard.appendChild(imgElement);
+        plantCard.appendChild(nameElement);
         // Add event listener for displaying details on click
         plantCard.addEventListener('click', () => displayPlantDetails(plant));
         container.appendChild(plantCard);
