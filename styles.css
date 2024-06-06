@@ -67,11 +67,19 @@
 .images{
     display: flex;
     margin-top: 5%;
-    gap: 30%;
+    gap: 300px;
     font-size: 20px;
+    border-radius: 20%;
+    width: 400px;
+    height: 390px;
+   
+}
+#aim{
+    font-size: 23px;
+    padding-top: 190px;
 }
 #lily{
-    background-image: url("https://i.pinimg.com/236x/6c/f9/d5/6cf9d52011f571cc0758bfc2047b1db7.jpg");
+    background-image: url("https://media.istockphoto.com/id/1201392512/photo/dark-green-foliage-nature-background-from-clean-tropical-plant-leaves.jpg?s=612x612&w=0&k=20&c=hfYtITIFqoa0m2FR6DZ-yWK0Jlhill4zzUuXiVvoGIg=");
    background-position: center;
    background-size:cover;
     background-repeat: no-repeat; 
@@ -97,7 +105,10 @@
 }
 .green{
     display: flex;
-    gap: 30%;
+    gap: 270px;
+    width: 420px;
+    height: 390px;
+    border-radius: 20%;
 }
 .footer{
     display: flex;
@@ -116,11 +127,14 @@
 }
 #join{
     display: flex;
-    gap: 370px;
+    gap: 200px;
+    
 }
 #picture{
-    width: 450px;
-    height: 380px;
+    width: 650px;
+    height: 500px;
+    border-radius: 20%;
+    padding-left: 80px;
 }
 .information{
     margin-top: 5%;
