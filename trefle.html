@@ -1,38 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="trefle.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
+<html>
+  <head>
+    <title>Plant Search</title>
+    <link rel="stylesheet" href="trefle.css" />
+  </head>
+  <body>
     <div class="Navbar">
-        <img src="images/lily-removebg-preview.png" alt="logo" id="sunflower">
-        <h3>Evogreen</h3>
-        <li class="navbar">
-          <ul> <a href="index.html" id="home">Home</a></ul>
-         </li>
-      </div>
-
-    
-    <h1>Plant Gallery</h1>
-    <input type="text" id="searchBar" placeholder="Search for a plant..."> 
-    <button id="prevPageBtn">Previous</button>
-       <button id="nxtPageBtn">Next</button>
-     
-      <div id="noResultsMessage" style="display:none;">No results found.</div>
-    <div id="container"></div>
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <div id="plant-details"></div>
-        </div>
+      <img src="images/lily-removebg-preview.png" alt="logo" id="sunflower" />
+      <h3 id="evogreen" >Evogreen</h3>
+      <li class="navbar">
+        <ul>
+          <button id="home"><a href="index.html">Home</a></button>
+        </ul>
+      </li>
     </div>
-   
-   
+
+    <h1>Plant Search</h1>
+    <input type="text" id="searchBar" placeholder="Search plants..." />
+    <button id="prevPage">Previous Page</button>
+    <button id="nextPage">Next Page</button>
+    <select id="filterSelect">
+      <option value="" id="all">All</option>
+      <option value="common_name">Common Name</option>
+      <!-- <option value="scientific_name">Scientific Name</option>
+      <option value="family_common_name">Family</option>
+      <option value="genus">Genus</option>
+      <option value="year">Year</option> -->
+    </select>
+    <div id="container"></div>
+    
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div id="plant-details"></div>
+      </div>
+    </div>
     <script src="trefle_api.js"></script>
-</body>
+  </body>
 </html>

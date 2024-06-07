@@ -168,6 +168,7 @@
     display: none;
   }
   
+  
 
 /* Styles for smaller screens */
 @media screen and (max-width: 767px) {
@@ -205,21 +206,80 @@
     
 }
 
-@media screen and (max-width:1199px){
-    #sunflower{
-        width: 50px;
+@media screen and (max-width: 1199px){
+    /* #sunflower{
+        width: 30px;
+        margin-left: 0%;
     
-    }
+    } */
     .Navbar{
         flex-wrap: wrap;
         font-size: large;
+        /* gap: 10px; */
         
     }
     .navbar{
         /* display: flex; */
-        /* margin-left: 60%; */
-        /* gap: 70px; */
+         margin-left: 1%;
+         /* gap: 10px;  */
         flex-wrap: wrap;
         
+    }
+    #learn{
+        font-size: 40px;
+        text-align: center;
+    }
+    #Plantae{
+        text-align: center;
+    }
+    .plan{
+        width: 150px;
+        height: 150px;
+    }
+    #plan{
+        gap: 100px;
+    }
+    #Choose{
+        text-align: center;
+        font-size: 40px;
+    }
+    .images{
+        width: 150px;
+        height: 150px;
+        gap: 100px;
+        margin-bottom: 10%;
+    }
+
+    .information{
+        font-size: 23px;
+        margin-top: 0%;
+
+    }
+    #images{
+        font-size: 20px;
+    }
+    .green{
+        width: 150px;
+        height: 150px;
+        gap: 100px;
+    }
+    .join{
+        font-size: 20px;
+    }
+    #picture{
+        width: 150px;
+        height: 150px;
+    }
+    #join{
+        gap: 100px;
+    }
+    .footer{
+        gap: 120px;
+        padding-left: 4%;
+    }
+    #tree{
+        width: 200px;
+        height: 200px;
+        gap: 10px;
     }
 }
