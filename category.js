@@ -53,13 +53,13 @@ function displayPlant(result) {
     const container = document.querySelector('#container');
     container.innerHTML = '';
     const plants = result.filter(plant => {
-        if (plant.common_name[0] == 'D') { 
+        if (plant.common_name[0] == 'm') { 
             const plantBox = document.createElement('div');
             const plantName = document.createElement('h3');
             plantName.textContent = plant.common_name;
             plantBox.appendChild(plantName);
             const plantImg = document.createElement('img');
-            plantImg.src = plant.img_url;
+            plantImg.src = plant.image_url;
             plantImg.alt = plant.common_name;
             plantBox.appendChild(plantImg);
 

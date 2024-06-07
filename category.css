@@ -1,0 +1,17 @@
+.outcontainer{
+    padding: 50%;
+    background-color: green;
+    color: aliceblue;
+}
+.contents button{
+    padding: 18px;
+    width: 20%;
+    border-radius: 8px;
+    box-shadow: inset;
+
+}
+.contents button a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
