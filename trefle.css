@@ -35,7 +35,7 @@ body {
     padding: 10px;
     width: 50%;
     font-size: 16px;
-    border-radius: 15px;
+    border-radius: 7px;
 }
 .modal {
     display: none;
@@ -84,12 +84,12 @@ body {
 #prevPage{
     margin: 20px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 7px;
 }
 #nextPage{
     margin: 20px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 7px;
 }
 #sunflower{
     width: 40px;
@@ -104,18 +104,25 @@ body {
     border-radius: 15px
 } */
 #home{
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 10px;
-    margin-left: 500px;
+    margin-left: 3px;
+    color: #000;
 }
-.navbar a{
+#home a{
+    text-decoration: none;
+    color: #000;
+}
+/* .navbar a{
     text-decoration: none;
 }
 .navbar li{
     text-decoration: none;
-}
+} */
 #filterSelect{
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
+    
+   
 }
 
