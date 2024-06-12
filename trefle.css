@@ -111,46 +111,6 @@ body {
    
 }
 
-.plant-card {
-    position: relative;
-    display: inline-block;
-    width: 200px;
-    margin: 20px;
-    text-align: center;
-  }
-  
-  .plant-name {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 5px;
-    width: 80%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-
-  #pagination {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-#pagination a {
-    margin: 0 5px;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: #333;
-    border: 1px solid #ccc;
-}
-
-#pagination a.active {
-    background-color: #ccc;
-}
 
 /* Media Queries*/
 
