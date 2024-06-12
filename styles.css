@@ -8,6 +8,7 @@
     font-size: larger;
     margin-top: -50px;
     font-size: 25px;
+    color: white;
 }
 .navbar{
     display: flex;
@@ -194,7 +195,7 @@
 
   
 
-@media (max-width:480px) {
+/* @media (max-width:480px) {
     #sunflower{
         width: 24px;
     
@@ -351,7 +352,7 @@
         padding-top: 8%;
         margin-top: 5%;
         font-size:10px;
-        /* text-align: center; */
+        /* text-align: center; 
 
     }
     #Plantae{
@@ -373,9 +374,183 @@
       }
 
   
-    }
+    } */
 
-@media screen and (min-width:481px) and (max-width:768px) {
+    @media (max-width:480px) {
+        #sunflower{
+            width: 24px;
+        }
+        .Navbar{
+            display: inline-flex;
+            font-size: medium;
+            margin-top: 2px;
+            font-size: 8px;
+        }
+        .navbar{
+            display:block;
+            margin-left: 2px;
+            gap: 4px;
+        }
+        .plant{
+            font-size: 20px;
+        }
+        #learn{
+            text-align: center;
+        }
+        #plan{
+            font-size: 100px;
+            /* display: flex; */
+            /* flex-wrap: wrap; */
+            flex-direction: column;
+            gap: 50px;
+          }
+        .plan{
+            width: 320px;
+            height: 150px;
+            /* border-radius: 9%; */
+            flex-direction: column;
+            justify-content: center;
+        }
+        #button{
+            /* border-radius: 70px; */
+            width: 100px;
+            height: 60px;
+            /* margin-top: 20px; */
+            /* padding-top: 2px; */
+            /* padding-bottom: 2px; */
+            margin-left: 10px;
+            margin-right: 10px;
+            /* font-size:small; */
+            /* background-color:black; */
+            /* color:white; */
+            /* text-decoration: none; */
+        }
+        #button a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #Text{
+            display: block;
+            gap: 10px;
+        }
+        .text{
+            font-size: 13px;
+        }
+        #text{
+            font-size: 14px;
+            margin-left: 5%;
+        }
+        #tree{
+            width: 80%;
+        }
+        #images{
+            font-size: 14px;
+        }
+        .images{
+            /* display: flex; */
+            flex-wrap: wrap;
+            margin-top: 5%;
+            gap: 10px;
+            /* font-size: 15px; */
+            /* border-radius: 20%; */
+            width: 330px;
+            height: 130px;
+        }
+        #lily{
+           background-position: center;
+           background-size:cover;
+            background-repeat: no-repeat;
+           border: none;
+           width: 100%;
+           height: 100%;
+           color: black;
+           text-align: center;
+           padding-bottom: 2%;
+           padding-top: 2%;
+        }
+        #innerlily{
+            padding-top: 70px;
+            padding-bottom: 70px;
+            background-color: white;
+            margin-left: 2%;
+            margin-right: 2%;
+            background-size: cover;
+            filter: opacity(60%);
+        }
+        .green{
+            /* display: flex; */
+            flex-wrap: wrap;
+            gap: 50px;
+            width: 300px;
+            height: 300px;
+            border-radius: 20%;
+        }
+        .footer{
+            /* display: flex; */
+            flex-wrap: wrap;
+            font-size: 20px;
+            gap: 40px;
+            margin-top: 10px;
+            text-align:start;
+            background-color:#009000;
+        }
+        #Choose{
+            text-align: center;
+        }
+        .join{
+            font-size: 20px;
+            margin-top: 220%;
+        }
+        #join{
+            /* display: flex; */
+            flex-wrap: wrap;
+            gap: 2%;
+        }
+        #aim{
+            font-size: 23px;
+            padding-top: 200px;
+            /* margin-right: 80%; */
+            /* flex-direction: column; */
+        }
+        #picture{
+            width: 200px;
+            height: 200px;
+            border-radius: 5%;
+            justify-content: center;
+        }
+        .information{
+            padding-top: 8%;
+            margin-top: 180%;
+            font-size:20px;
+            /* text-align: center; */
+        }
+        #Plantae{
+            font-size: 18px;
+        }
+        #home{
+            text-decoration: none;
+            color: white;
+            font-size: 7px;
+            font-weight: bold;
+        }
+        .menu-toggle {
+            display: none;
+          }
+          .container{
+            object-fit: contain;
+          }
+        }
+    
+    
+    
+    
+    
+    
+    
+
+/* @media  (min-width:481px) and (max-width:768px) {
     #sunflower{
         width: 24px;
     
@@ -413,8 +588,8 @@
       
     }
     .plan{
-        width: 50px;
-        height: 40px;
+        width: 100px;
+        height: 60px;
         border-radius: 9%;
     }
     #button{
@@ -426,7 +601,7 @@
         padding-bottom: 2px;
         margin-left: 0px;
         margin-right: 0px;
-        /* font-size:small; */
+        /* font-size:small; 
         background-color:black;
         color:white;
         text-decoration: none;
@@ -467,8 +642,8 @@
         gap: 8px;
         font-size: 10px;
         border-radius: 20%;
-        width: 50px;
-        height: 39px;
+        width: 58px;
+        height: 60px;
        
     }
     #aim{
@@ -538,7 +713,7 @@
         padding-top: 20%;
         margin-top: 5%;
         font-size:10px;
-        /* text-align: center; */
+        /* text-align: center; 
 
     }
     #Plantae{
@@ -559,17 +734,201 @@
         font-size: 15px;
       }
 
-    }
+    } */
+    @media (min-width:481px) and (max-width:768px) {
+        #sunflower{
+            width: 24px;
+        }
+        .Navbar{
+            display: flex;
+            /* flex-direction: column; */
+            font-size: medium;
+            margin-top: 2px;
+            font-size: 20px;
+            gap: 70px;
+            color: #fff;
+        }
+        .navbar{
+            /* display:flex; */
+            flex-wrap: wrap;
+            margin-left: -10px;
+            gap: 4px;
+        }
+        .navbar a{
+            color:white;
+            text-decoration: none;
+            font-size:medium;
+        }
+        .plant{
+            /* font-size: 10px; */
+        }
+        /* .plan{
+            width: 320px;
+            height: 150px;
+            /* border-radius: 9%;
+            flex-direction: column;
+            justify-content: center;
+        } */
+        #learn{
+            text-align: center;
+        }
+        #plan{
+            font-size: 4px;
+            display: inline-flex;
+            gap: 20px;
+        }
+        .plan{
+            width: 200px;
+            height: 160px;
+            /* border-radius: 9%; */
+        }
+        #button{
+            /* border-radius: 5px; */
+            /* width: 20px; */
+            /* height: 20px; */
+            margin-top: 20px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-left: 10px;
+            /* margin-right: 10px; */
+            /* font-size:small; */
+            /* background-color:black; */
+            /* color:white; */
+            /* text-decoration: none; */
+        }
+        #button a{
+            /* text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold; */
+        }
+        #Text{
+            /* display: flex; */
+            /* flex-wrap: wrap; */
+            gap: 10px;
+        }
+        .tex{
+            font-size: 20px;
+        }
+        #text{
+            font-size: 14px;
+            margin-left: 3%;
+        }
+        #tree{
+            width: 140%;
+            /* justify-content: center; */
+        }
+        #images{
+            font-size: 30px;
+            margin-top: 100px;
+        }
+        .images{
+            display: flex;
+            /* flex-wrap: wrap; */
+            margin-top: 5%;
+            gap: 15px;
+            font-size: 25px;
+            border-radius: 20%;
+            width: 220px;
+            height: 250px;
+        }
+        #aim{
+            font-size: 30px;
+            padding-top: 1px;
+        }
+        #lily{
+           background-position: center;
+           background-size:cover;
+            background-repeat: no-repeat;
+           border: none;
+           width: 100%;
+           height: 100%;
+           color: black;
+           text-align: center;
+           padding-bottom: 5%;
+           padding-top: 5%;
+        }
+        #innerlily{
+            padding-top: 70px;
+            padding-bottom: 75px;
+            background-color: white;
+            margin-left: 2%;
+            margin-right: 2%;
+            background-size: cover;
+            filter: opacity(60%);
+        }
+        .green{
+            display: flex;
+            /* flex-wrap: wrap; */
+            gap: 10px;
+            width: 500px;
+            height: 140px;
+            border-radius: 20%;
+        }
+        .footer{
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 30px;
+            gap: 50px;
+            margin-top: 10px;
+            text-align:start;
+            background-color:#009000;
+        }
+        #Choose{
+            text-align: center;
+        }
+        .join{
+            font-size: 30px;
+        }
+        #join{
+            display: block;
+            gap: 20px;
+        }
+        #picture{
+            width: 75px;
+            height: 65px;
+            border-radius: 10%;
+            padding-right: 8px;
+        }
+        .information{
+            padding-top: 20%;
+            margin-top: 5%;
+            font-size:30px;
+            /* text-align: center; */
+        }
+        #Plantae{
+            font-size: 30px;
+        }
+        #home{
+            text-decoration: none;
+            color: white;
+            font-size: 7px;
+            font-weight: bold;
+        }
+        .menu-toggle {
+            display: none;
+          }
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
-    @media (min-width: 769px)and (max-width: 1024px){
+    /* @media (min-width: 769px)and (max-width: 1024px){
         /* #sunflower{
             width: 30px;
             margin-left: 0%;
-        } */
+        } 
         .Navbar{
             flex-wrap: wrap;
             font-size: large;
-            /* gap: 10px; */
+            /* gap: 10px; 
         }
         .navbar{
             display: flex;
@@ -662,9 +1021,119 @@
             object-fit: contain;
         }
       
+    } */
+    @media (min-width: 769px)and (max-width: 1024px){
+        #sunflower{
+            width: 30px;
+            margin-left: 0%;
+            color: yellow;
+        }
+        .Navbar{
+            display: flex;
+            font-size: 12px;
+            gap: 100px;
+        }
+        .navbar{
+            display: flex;
+             margin-left: 1%;
+            flex-wrap: wrap;
+        }
+        #learn{
+            font-size: 40px;
+            text-align: center;
+        }
+        #lily{
+            background-position: center;
+            background-size:cover;
+             background-repeat: no-repeat;
+            border: none;
+            width: 100%;
+            height: 100%;
+            color: black;
+            text-align: center;
+            padding-bottom: 5%;
+            padding-top: 5%;
+         }
+         #innerlily{
+             padding-top: 70px;
+             padding-bottom: 75px;
+             background-color: white;
+             margin-left: 2%;
+             margin-right: 2%;
+             background-size: cover;
+             filter: opacity(60%);
+         }
+        #Plantae{
+            text-align: center;
+        }
+        .plan{
+            width: 230px;
+            height: 230px;
+        }
+        #plan{
+            gap: 40px;
+        }
+        #Choose{
+            text-align: center;
+            font-size: 40px;
+        }
+        .images{
+            width: 250px;
+            height: 250px;
+            gap: 70px;
+            margin-bottom: 10%;
+        }
+        .information{
+            font-size: 18px;
+            margin-top: 0%;
+        }
+        #images{
+            font-size: 20px;
+        }
+        .green{
+            width: 250px;
+            height: 250px;
+            gap: 50px;
+        }
+        .join{
+            font-size: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 20px;
+        }
+        #picture{
+            width: 300px;
+            height: 300px;
+        }
+        #join{
+            gap: 100px;
+        }
+        .footer{
+            gap: 60px;
+            /* padding-left: %; */
+            align-content: center;
+            background-color:#009000;
+        }
+        #tree{
+            width: 170px;
+            height: 170px;
+            gap: 10px;
+        }
+        .container{
+            object-fit: contain;
+        }
     }
 
-    @media (min-width:1025px) and (max-width:1200px){
+
+
+
+
+
+
+
+
+
+    @media  (min-width:1025px) and (max-width:1200px){
     #sunflower{
         width: 50px;
     }
@@ -723,11 +1192,15 @@
         display: grid;
         grid-template-columns: repeat(3,1fr);
         /* grid-gap: 10px; */
+        margin-left: 150px;
+        
+        
     }
     .plan{
-        width: 150px;
-        height: 150px;
-        border-radius: 20%;
+        width: 170px;
+        height: 170px;
+        border-radius: 21%;
+        
     }
     #button{
         border-radius: 50px;
@@ -776,6 +1249,7 @@
         width: 180px;
         height: 180px;
         margin-bottom: 4%;
+        
     }
     #aim{
         font-size: 23px;
