@@ -1,4 +1,3 @@
-
 const baseUrl =
         "https://trefle.io/api/v1/plants?token=IStUS451yET7aU6HoqFv5cLSGc_IEP64VIcL1Bssm6Q";
       const url = "https://corsproxy.io/?" + encodeURIComponent(baseUrl);
@@ -53,7 +52,6 @@ const baseUrl =
               container.appendChild(plantCard);
             }
           });
-
         }
       }
       function updatePagination(links) {
