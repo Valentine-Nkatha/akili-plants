@@ -80,7 +80,6 @@ body {
     font-size: 20px;
     color: #124909;
     font-weight: bold;
-   
 }
 #prevPage{
     margin: 20px;
@@ -91,7 +90,6 @@ body {
     margin: 20px;
     padding: 10px;
     border-radius: 15px;
-    
 }
 #sunflower{
     width: 40px;
@@ -101,32 +99,23 @@ body {
     display: flex;
 }
 /* #home{
-     
     margin-left: 1550px;
     padding: 10px;
     border-radius: 15px
-
-   
 } */
 #home{
     border-radius: 15px;
     padding: 10px;
     margin-left: 500px;
-     
 }
 .navbar a{
     text-decoration: none;
 }
-
 .navbar li{
     text-decoration: none;
 }
 #filterSelect{
-    
     padding: 10px;
     border-radius: 15px;
-    
 }
-/* Media Queries*/
-
 
